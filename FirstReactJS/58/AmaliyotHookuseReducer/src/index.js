@@ -2,8 +2,6 @@ import { StrictMode } from "react";
 import {createRoot} from "react-dom/client";
 import "./index.css"
 import App from "./App";
-import "react-toastify/dist/ReactToastify.min.css"
-
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement)
 
